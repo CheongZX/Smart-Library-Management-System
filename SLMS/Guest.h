@@ -8,6 +8,7 @@ class Guest: public Person
 public:
     void viewBook();
     void search();
+    void redo();
 private:
 };
 
