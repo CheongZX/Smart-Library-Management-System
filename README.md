@@ -12,14 +12,19 @@ Necessary commands (cmder):
 7) git push origin <branch_name> : upload the changes to the website
 8) git pull origin <branch_name> : download the changes from website to ur PC
 9) git checkout -b <branch_name> : create a new branch
+10) git checkout <branch_name> : move to that branch
+11) git branch -a : show all the branches
 
-Normal procedure:
+First time:
 1) Go to the website repository
 2) Copy the link
-3) Go to the cmder type "git clone "
-4) Go to your coding platform
-5) git checkout -b <branch_name>
-6) Write your code
-7) git add .
-8) git commit -m "added "
-9) git push origin <branch_name>
+3) Go to the cmder type "git clone <link>"
+4) git remote add origin <link>
+
+Normal procedure:
+1) git pull origin <branch_name>
+2) git checkout -b <branch_name>
+3) Write your code
+4) git add .
+5) git commit -m "added <what>"
+6) git push origin <branch_name>
